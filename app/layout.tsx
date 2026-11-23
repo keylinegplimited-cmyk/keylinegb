@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Keyline Growth Partners Limited | Sales Outsourcing & Execution',
-  description: 'Nigeria\'s premier sales execution partner. We recruit, deploy, and manage field sales executives, telesales agents, and merchandisers across all six geopolitical zones of Nigeria.',
+  title: 'Coming Soon | Keyline Growth Partners Limited',
+  description: 'A new home for Keyline Growth Partners is in the works. Get in touch with our team.',
   keywords: [
     'Keyline Growth Partners',
     'Sales Outsourcing Nigeria',
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     'Keyline Group'
   ],
   openGraph: {
-    title: 'Keyline Growth Partners Limited',
-    description: 'Building strategic partnerships for sustainable revenue growth. Full-spectrum sales execution across Nigeria.',
+    title: 'Coming Soon | Keyline Growth Partners Limited',
+    description: 'A new home for Keyline Growth Partners is in the works.',
     url: 'https://keylinegroup.com.ng',
     siteName: 'Keyline Growth Partners Limited',
     locale: 'en_NG',
