@@ -8,21 +8,37 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#4ade80',
-          500: '#22c55e',
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
-          dark: '#0B132B',
-          navy: '#1C2541',
-          accent: '#00E676',
+        keyline: {
+          orange: '#F56900',
+          'orange-hover': '#DD5C00',
+          'orange-50': '#FFF8F2',
+          'orange-100': '#FFEDDF',
+          cream: '#FAF7F2',
+          sand: '#F4EFE6',
+          ivory: '#EFE9DD',
+          border: '#E8E1D3',
+          borderDark: '#2C3444',
+          navy: '#001773',
+          midnight: '#0D1424',
+          darkSurface: '#141D30',
+          charcoal: '#1A1E24',
+          textMuted: '#687282',
         }
+      },
+      fontFamily: {
+        sans: [
+          'Inter',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'sans-serif',
+        ],
+      },
+      boxShadow: {
+        'framer': '0 20px 40px -15px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.04)',
+        'framer-hover': '0 30px 60px -12px rgba(245, 105, 0, 0.12), 0 0 0 1px rgba(245, 105, 0, 0.2)',
+        'framer-dark': '0 20px 40px -15px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.08)',
       }
     },
   },
